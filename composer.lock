@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "0f3cd9e2e6ca94e605a9365bf53164db",
+    "content-hash": "6d6edd9b93cd52011ffeaacb884993ea",
     "packages": [
         {
             "name": "dhii/data-container-interface",
@@ -267,49 +267,6 @@
             ],
             "description": "Interfaces for standard iterators",
             "time": "2017-08-15 15:42:55"
-        },
-        {
-            "name": "dhii/normalization-helper-base",
-            "version": "dev-task/initial-classes",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Dhii/normalization-helper-base.git",
-                "reference": "69f0f2b3bb0a7a76ccf7c08976e47184c914a5c1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Dhii/normalization-helper-base/zipball/69f0f2b3bb0a7a76ccf7c08976e47184c914a5c1",
-                "reference": "69f0f2b3bb0a7a76ccf7c08976e47184c914a5c1",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^5.4 | ^7.0"
-            },
-            "require-dev": {
-                "codeclimate/php-test-reporter": "<=0.3.2",
-                "dhii/php-cs-fixer-config": "^0.1",
-                "dhii/stringable-interface": "^0.1",
-                "phpunit/phpunit": "^4.8",
-                "ptrofimov/xpmock": "^1.1"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Dhii\\Util\\Normalization\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Dhii Team",
-                    "email": "development@dhii.co"
-                }
-            ],
-            "description": "Functionality for normalizing values.",
-            "time": "2017-10-27 10:41:49"
         },
         {
             "name": "dhii/stringable-interface",
@@ -2462,8 +2419,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "dhii/tokenizer-interface": 20,
-        "dhii/normalization-helper-base": 20
+        "dhii/tokenizer-interface": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
