@@ -94,6 +94,35 @@ class ColumnNumberAwareTraitTest extends TestCase
     }
 
     /**
+     * Tests that `_setColumnNumber()` method rejects a negative value.
+     *
+     * @since [*next-version*]
+     */
+    public function testSetGetColumnNumberIntZeroFailure()
+    {
+        $data = rand(0, 99) * -1;
+        $subject = $this->createInstance();
+        $_subject = $this->reflect($subject);
+
+        $this->setExpectedException('InvalidArgumentException');
+        $_subject->_setColumnNumber($data);
+    }
+    /**
+     * Tests that `_setColumnNumber()` method rejects a zero value.
+     *
+     * @since [*next-version*]
+     */
+    public function testSetGetColumnNumberIntNegativeFailure()
+    {
+        $data = 0;
+        $subject = $this->createInstance();
+        $_subject = $this->reflect($subject);
+
+        $this->setExpectedException('InvalidArgumentException');
+        $_subject->_setColumnNumber($data);
+    }
+
+    /**
      * Tests that `_setColumnNumber()` method accepts null, and `_getColumnNumber()` returns it.
      *
      * @since [*next-version*]
