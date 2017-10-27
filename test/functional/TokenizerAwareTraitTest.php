@@ -108,7 +108,7 @@ class TokenizerAwareTraitTest extends TestCase
         $_subject = $this->reflect($subject);
 
         $_subject->_setTokenizer($data);
-        $this->assertSame($data, $_subject->_getTokenizer(), 'Token path returned not same as token set');
+        $this->assertSame($data, $_subject->_getTokenizer(), 'Token returned not same as token set');
     }
 
     /**
@@ -123,7 +123,7 @@ class TokenizerAwareTraitTest extends TestCase
         $_subject = $this->reflect($subject);
 
         $_subject->_setTokenizer($data);
-        $this->assertEquals($data, $_subject->_getTokenizer(), 'Token path returned not same as token set');
+        $this->assertEquals($data, $_subject->_getTokenizer(), 'Token returned not same as token set');
     }
 
     /**
