@@ -13,7 +13,8 @@
     "prefer-stable": true,
     "require": {
         "php": "^5.4 | ^7.0",
-        "dhii/tokenizer-interface": "dev-task/initial-interfaces"
+        "dhii/tokenizer-interface": "dev-task/initial-interfaces",
+        "dhii/normalization-helper-base": "dev-task/initial-classes"
     },
     "require-dev": {
         "phpunit/phpunit": "^4.8",
