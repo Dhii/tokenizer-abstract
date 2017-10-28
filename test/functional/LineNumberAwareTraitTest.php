@@ -109,6 +109,35 @@ class LineNumberAwareTraitTest extends TestCase
     }
 
     /**
+     * Tests that `_setLineNumber()` method rejects a negative value.
+     *
+     * @since [*next-version*]
+     */
+    public function testSetGetLineNumberIntZeroFailure()
+    {
+        $data = rand(0, 99) * -1;
+        $subject = $this->createInstance();
+        $_subject = $this->reflect($subject);
+
+        $this->setExpectedException('InvalidArgumentException');
+        $_subject->_setLineNumber($data);
+    }
+    /**
+     * Tests that `_setLineNumber()` method rejects a zero value.
+     *
+     * @since [*next-version*]
+     */
+    public function testSetGetLineNumberIntNegativeFailure()
+    {
+        $data = 0;
+        $subject = $this->createInstance();
+        $_subject = $this->reflect($subject);
+
+        $this->setExpectedException('InvalidArgumentException');
+        $_subject->_setLineNumber($data);
+    }
+
+    /**
      * Tests that `_setLineNumber()` method rejects an invalid value.
      *
      * @since [*next-version*]

@@ -72,6 +72,7 @@ class TokenAwareTraitTest extends TestCase
                 ->get()
                 ->has()
                 ->getKey()
+                ->getValue()
                 ->getLineNumber()
                 ->getColumnNumber()
                 ->new();

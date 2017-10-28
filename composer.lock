@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "6d6edd9b93cd52011ffeaacb884993ea",
+    "content-hash": "7cfcc3a895633a69e12bdbeea472e826",
     "packages": [
         {
             "name": "dhii/data-container-interface",
@@ -266,7 +266,7 @@
                 }
             ],
             "description": "Interfaces for standard iterators",
-            "time": "2017-08-15 15:42:55"
+            "time": "2017-08-15T15:42:55+00:00"
         },
         {
             "name": "dhii/stringable-interface",
@@ -312,16 +312,16 @@
         },
         {
             "name": "dhii/tokenizer-interface",
-            "version": "dev-task/initial-interfaces",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Dhii/tokenizer-interface.git",
-                "reference": "579de75500cf10f045c5c1c05f6363b24312a305"
+                "reference": "bba1b973db6a8f30a916eca9815a464ab9c4b82e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Dhii/tokenizer-interface/zipball/579de75500cf10f045c5c1c05f6363b24312a305",
-                "reference": "579de75500cf10f045c5c1c05f6363b24312a305",
+                "url": "https://api.github.com/repos/Dhii/tokenizer-interface/zipball/bba1b973db6a8f30a916eca9815a464ab9c4b82e",
+                "reference": "bba1b973db6a8f30a916eca9815a464ab9c4b82e",
                 "shasum": ""
             },
             "require": {
@@ -354,7 +354,7 @@
                 }
             ],
             "description": "Interfaces for tokenizer interoperability.",
-            "time": "2017-10-27 03:37:32"
+            "time": "2017-10-27T16:03:17+00:00"
         },
         {
             "name": "psr/container",
