@@ -24,7 +24,7 @@ trait LineNumberAwareTrait
      *
      * @since [*next-version*]
      *
-     * @return int|null
+     * @return int|null The 1-based line number.
      */
     protected function _getLineNumber()
     {

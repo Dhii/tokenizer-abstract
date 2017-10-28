@@ -24,7 +24,7 @@ trait ColumnNumberAwareTrait
      *
      * @since [*next-version*]
      *
-     * @return int|null
+     * @return int|null The 1-based column number.
      */
     protected function _getColumnNumber()
     {
