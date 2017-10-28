@@ -85,7 +85,7 @@ class LineNumberAwareTraitTest extends TestCase
      */
     public function testSetGetLineNumberInt()
     {
-        $data = rand(0, 99);
+        $data = rand(1, 99);
         $subject = $this->createInstance();
         $_subject = $this->reflect($subject);
 

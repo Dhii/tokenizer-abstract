@@ -85,7 +85,7 @@ class ColumnNumberAwareTraitTest extends TestCase
      */
     public function testSetGetColumnNumberInt()
     {
-        $data = rand(0, 99);
+        $data = rand(1, 99);
         $subject = $this->createInstance();
         $_subject = $this->reflect($subject);
 
